@@ -1,7 +1,7 @@
 export function Button(name, onClick) {
   this.name = name;
 
-  this.buttonEl = document.createAttribute("button");
+  this.buttonEl = document.createElement("button");
   this.buttonEl.textContent = name;
 
   var that = this;
